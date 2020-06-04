@@ -1,0 +1,119 @@
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    background-color: #eee;
+
+}
+header{
+    height: 7vh;
+    padding-left: 10%;
+}
+nav ul{
+    list-style: none;
+    padding-left: 0;
+}
+nav ul li{
+    display: inline;
+    padding-right: 4%;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 0.7rem;
+    color: #659d89;
+}
+nav ul li a:hover{
+    text-decoration: underline;
+}
+section{
+    border-bottom: 2px solid #ccc;
+    padding: 5vh 0 5vh 10%;
+}
+section h1{
+    color: #659d89;
+    font-size: 2.5rem;
+    margin: 8vh 0 0 0;
+}
+section h2{
+    width: 50%;
+    line-height: 35px;
+}
+section ul{
+    list-style: none;
+    text-align: right;
+    padding: 10vh 10% 15vh 0;
+}
+section ul li a img{
+    height: 20px;
+    width: 20px;
+}
+section p{
+    font-size: 0.8rem;
+    color: #666;
+}
+section p span{
+    font-size: 1.2rem;
+}
+section h3{
+    font-size: 1rem;
+    color: #333;
+}
+section:nth-of-type(2) p{
+    padding-bottom: 3vh;
+}
+section:nth-of-type(2) img{
+    width: 20%;
+    padding: 2vh 5%;
+}
+section div{
+    text-align: center;
+    padding: 5vh 0;
+    width: 50%;
+}
+section div:nth-of-type(odd){
+    padding-left: 5%;
+}
+section div:nth-of-type(even){
+    padding-left: 40%;
+}
+section div a img{
+    width: 100%;
+}
+section div h4{
+    color: #666;
+    font-size: 0.7rem;
+    margin-bottom: 1vh;
+}
+section div h5{
+    font-size: 1rem;
+    margin: 0 0 1vh 0;
+}
+section div h5 a{
+    color: #333;
+    text-decoration: none;
+}
+section div h5 a:hover{
+    text-decoration: underline;
+}
+section div h6{
+    color: #666;
+    font-size: 0.6rem;
+    margin-top: 0;
+}
+footer{
+    text-align: center;
+    color: #666;
+    padding-bottom: 1vh;
+}
+footer h3{
+    padding: 7vh;
+    font-size: 1rem;
+}
+footer h3 span{
+    font-size: 1.2rem;
+}
+footer p{
+    font-size: 0.6rem;
+    margin: 0;
+    padding: 0;
+}
